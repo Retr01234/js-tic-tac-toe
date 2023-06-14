@@ -39,6 +39,24 @@ cellBlocks.forEach(function (cellBlock) {
 
         /* Stating whose turn it is to play */
         playerOne = playerOne == "X" ? "O" : "X";
-        alert("You played your turn. Next Player, GO!");
+        alert("Next Player, GO!");
     });
 });
+
+/* Checking for a Winner */
+function winner() {
+    /* Looping through all Wining COmbinations */
+    waysOfWinning.forEach(function (ways) {
+        let checking = ways.every(x => cellBlocks[x].innerText.trim() == playerOne);
+        if (checking) {
+            winnerAndReset(ways);
+        }
+    });
+}
+
+/* Showing the Winner and Resetting the Game */
+function winnerAndReset(ways) {
+    ways.forEach(function (x) {
+        cellBlocks[x].classList.add("winning");
+    });
+}

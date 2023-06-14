@@ -62,3 +62,13 @@ section {
 .board-cells:nth-child(n+7) {
     border-bottom: none;
 }
+
+.board-cells.winning {
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    50% {
+        background-color: black;
+    }
+}
