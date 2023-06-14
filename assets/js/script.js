@@ -1,7 +1,7 @@
-/* Referencing our Main Variables (The Game & Scoreboard) */
+/* Referencing our Main Variables */
 let mainGame = document.getElementById("play-area");
 let cellBlocks = document.querySelectorAll(".board-cells");
-let scoreboard = document.getElementById("scoreboard-info");
+let reset = document.getElementById("reset");
 
 /* 1st Player */
 let playerOne = "X";
@@ -54,9 +54,13 @@ function winner() {
     });
 }
 
-/* Showing the Winner and Resetting the Game */
+/* Showing the Winner */
 function winnerAndReset(ways) {
     ways.forEach(function (x) {
         cellBlocks[x].classList.add("winning");
     });
 }
+
+/* Resetting the Game after the Click */
+reset.addEventListener("click", function () {
+});
