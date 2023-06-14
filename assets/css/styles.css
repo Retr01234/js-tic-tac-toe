@@ -47,6 +47,12 @@ section {
 .board-cells {
     border-bottom: 10px solid white;
     border-right: 10px solid white;
+    font-size: 150px;
+    text-align: center;
+    line-height: 150px;
+    cursor: pointer;
+    user-select: none;
+    color: white;
 }
 
 .board-cells:nth-child(3n) {
