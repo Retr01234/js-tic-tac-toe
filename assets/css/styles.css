@@ -92,3 +92,20 @@ section {
     color: darkorange;
     ;
 }
+
+/* Responsive Design */
+
+/* Mobile Small */
+@media (max-width: 414px) {
+
+}
+
+/* Mobile Large */
+@media (max-width: 320px) {
+
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+}

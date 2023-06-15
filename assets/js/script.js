@@ -1,7 +1,6 @@
 /* Referencing our Main Variables */
 let mainGame = document.getElementById("play-area");
 let cellBlocks = document.querySelectorAll(".board-cells");
-let reset = document.getElementById("reset");
 
 /* 1st Player */
 let playerOne = "X";
@@ -62,5 +61,6 @@ function winnerAndReset(ways) {
 }
 
 /* Resetting the Game after the Click */
-reset.addEventListener("click", function () {
-});
+function resetGame() {
+    location.reload();
+}
