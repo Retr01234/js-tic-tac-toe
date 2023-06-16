@@ -94,18 +94,26 @@ section {
 }
 
 /* Responsive Design */
+@media only screen and (max-width: 415px) {
+    #play-area {
+        height: 300px;
+        width: 300px;
+        border: 15px solid white;
+        margin: 85px 0 5px 0;
+    }
 
-/* Mobile Small */
-@media (max-width: 414px) {
+    #reset {
+        width: 200px;
+        height: 100px;
+        font-size: 25px;
+        margin-top: 50px;
+    }
 
-}
-
-/* Mobile Large */
-@media (max-width: 320px) {
-
+    .board-cells {
+        font-size: 50px;
+        line-height: 90px;
+    }
 }
 
 /* Tablet */
-@media (max-width: 768px) {
-
-}
+@media only screen and (max-width: 768px) {}
