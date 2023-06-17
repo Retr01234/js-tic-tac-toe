@@ -2,9 +2,9 @@
 
 A simple Tic-Toe-Game made with Vanilla JS, where 2 Users can play together whilst receiving real-time Feedback.
 
-![Game shown on a range of devices]()
+![Game shown on a range of devices](assets/images/screen-sizes.jpg)
 
-[View Game on Github Pages]()
+[View Game on Github Pages](https://retr01234.github.io/js-tic-tac-toe/)
 
 ## CONTENTS
 
