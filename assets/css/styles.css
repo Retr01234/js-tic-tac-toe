@@ -95,6 +95,17 @@ section {
 
 /* Responsive Design */
 @media only screen and (max-width: 415px) {
+    header {
+        background-color: black;
+        height: 100px;
+    }
+
+    #main-header {
+        color: white;
+        font-family: fantasy;
+        font-weight: bold;
+    }
+
     #play-area {
         height: 300px;
         width: 300px;
@@ -116,4 +127,20 @@ section {
 }
 
 /* Tablet */
-@media only screen and (max-width: 768px) {}
+@media only screen and (min-width: 416px) and (max-width: 768px) {
+    #play-area {
+        height: 550px;
+        width: 550px;
+        margin: 50px 0 25px 0;
+    }
+
+    .board-cells {
+        line-height: 165px;
+    }
+
+    #reset {
+        width: 300px;
+        height: 125px;
+        font-size: 35px;
+    }
+}
