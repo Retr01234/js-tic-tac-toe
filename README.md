@@ -85,7 +85,7 @@ To create a simple but cool yet interactive Tic Tac Toe Game that allows 2 Users
 
 ### Colour Scheme
 
-![JavaScript Tic-Tac-Toe Website Colour Palette](docs/palette.jpg)
+![JavaScript Tic-Tac-Toe Website Colour Palette](/docs/palette.jpg)
 
 This website uses a street wall type of theme, with red exposed brick and neat graffiti.
 
@@ -181,24 +181,48 @@ Testing was done constantly before and after pushing new changes to the master b
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-- [Index Page HTML](docs/index.jpg)
-- [style.css CSS](docs/css.jpg)
+- [Index Page HTML](/docs/index.jpg)
+- [style.css CSS](/docs/css.jpg)
+
+### JSHint - JavaScript Validator
+
+- [sctipt.js JavaScript](/docs/js.jpg)
 
 ### Manual Testing
 
 #### Testing User Stories
 
-`First Time Visitors`
+---
+
+`First time Visitors`
+
+| Goals                                                        | How are they achieved?                                                                                                      |
+| :----------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| I want to give people the best first impression of the game. | By creating a simplistic and straight to the point application where the user can see instantly the purpose of the website. |
+| I want to be able to play it anywhere and anytime.           | By making the Website fully responsive and accessible on all devices.                                                       |
 
 `Returning Visitors`
 
+| Goals                                                                                                      | How are they achieved?                                                                                                               |
+| :--------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
+| I want to get such good experience, so that I always play this game instead of all the other alternatives. | I made the design and user feedback, just different enough to give them a great impression and a long lasting "good feeling" effect. |
+
 `Frequent Visitors`
+
+| Goals                                                                                   | How are they achieved?                                                                                                           |
+| :-------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| I want to recommend this game to all my friends and family and enjoy the fun with them. | With the user friendliness and straight to the point design, users will want to recommend the app to their friends and families. |
 
 ---
 
 ## Credits
 
+The idea for this project was fully my own decision but also with the inspiration of this YouTube Tutorial: (https://www.youtube.com/watch?v=DRaWr0Dcbl0)
+
 ### Code Used
+
+- [SweetAlert] (https://sweetalert.js.org/)
+- [CSS-Animation-Blinking] (https://webdevpuneet.com/css-animation-color-blinking/#gsc.tab=0)
 
 ### Content
 
@@ -206,9 +230,9 @@ Content for this Website was part of the 2nd Code Institute Project and purely m
 
 ### Media
 
-#### Background Images
+#### Background Image
 
-#### Teams Images
+- [Brick-Background] (https://www.pexels.com/photo/brown-brick-wall-207142/)
 
 ### Acknowledgments
 
