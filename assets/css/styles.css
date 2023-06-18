@@ -1,6 +1,4 @@
 /* Global Styling */
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -9,21 +7,22 @@
 
 body {
     background: url("../images/brick-bg.jpg") repeat center center / cover;
-    font-family: 'Rubik Spray Paint', cursive;
+    font-family: 'fantasy;', cursive;
 }
 
 /* Header */
 header {
-    background-color: darksalmon;
+    background-color: black;
     width: 100%;
     height: 70px;
 }
 
 #main-header {
     text-align: center;
-    padding-top: 15px;
     font-size: 45px;
-    color: black;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* Main Section/Play Area */
@@ -96,14 +95,7 @@ section {
 /* Responsive Design */
 @media only screen and (max-width: 415px) {
     header {
-        background-color: black;
         height: 100px;
-    }
-
-    #main-header {
-        color: white;
-        font-family: fantasy;
-        font-weight: bold;
     }
 
     #play-area {
