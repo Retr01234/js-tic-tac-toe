@@ -26,6 +26,15 @@ header {
 }
 
 /* Main Section/Play Area */
+#section-header {
+    font-size: 35px;
+    color: white;
+    border: 2px solid white;
+    padding: 3px;
+    margin-top: 5px;
+    background-color: black;
+}
+
 section {
     display: flex;
     justify-content: center;
