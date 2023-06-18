@@ -26,7 +26,7 @@ cellBlocks.forEach(function (cellBlock) {
     cellBlock.addEventListener("click", function () {
         /* Porviding Feedback to the Player to let them know that they cant choose the current cell block */
         if (cellBlock.innerText.trim() != "") {
-            alert("You cant choose that place. Try Again!");
+            swal("Sorry...", "You can't choose that spot", "error");
             return;
         }
 
@@ -38,7 +38,7 @@ cellBlocks.forEach(function (cellBlock) {
 
         /* Stating whose turn it is to play */
         playerOne = playerOne == "X" ? "O" : "X";
-        alert("Next Player, GO!");
+        swal("Next Player, GO!");
     });
 });
 
