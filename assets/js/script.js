@@ -57,6 +57,8 @@ function winner() {
 function winnerAndReset(ways) {
     ways.forEach(function (x) {
         cellBlocks[x].classList.add("winning");
+        swal("Congratulations!", "Game Over!", "success");
+        resetGame();
     });
 }
 
