@@ -85,7 +85,7 @@ To create a simple but cool yet interactive Tic Tac Toe Game that allows 2 Users
 
 ### Colour Scheme
 
-![JavaScript Tic-Tac-Toe Website Colour Palette](/docs/palette.jpg)
+![JavaScript Tic-Tac-Toe Website Colour Palette](/assets/images/palette.jpg)
 
 This website uses a street wall type of theme, with red exposed brick and neat graffiti.
 
