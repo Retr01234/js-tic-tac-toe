@@ -50,17 +50,34 @@ A simple Tic-Toe-Game made with Vanilla JS, where 2 Users can play together whil
 
 ### Initial Discussion
 
+To create a simple but cool yet interactive Tic Tac Toe Game that allows 2 Users to play on the same machine.
+
 #### Key information for the site
+
+- What is the purpose of the site/app?
+- Can this game be played every Platform?
+- How will I know if I won the game?
 
 ### User Stories
 
 #### Client Goals
 
+- To make the game Responsive for Mobile, Tablet and Desktop.
+- To create a fun and immersive game for 2 people to play.
+- To give users real-time feedback.
+
 #### First Time Visitor Goals
+
+- I want to give people the best first impression of the game.
+- I want to be able to play it anywhere and anytime.
 
 #### Returning Visitor Goals
 
+- I want to get such good experience, so that I always play this game instead of all the other alternatives.
+
 #### Frequent Visitor Goals
+
+- I want to recommend this game to all my friends and family and enjoy the fun with them.
 
 ---
 
@@ -70,7 +87,11 @@ A simple Tic-Toe-Game made with Vanilla JS, where 2 Users can play together whil
 
 ![JavaScript Tic-Tac-Toe Website Colour Palette](docs/palette.jpg)
 
+This website uses a street wall type of theme, with red exposed brick and neat graffiti.
+
 ### Typography
+
+The one and only font used for this website is 'fantasy'.
 
 ### Imagery
 
@@ -78,11 +99,27 @@ All images are taken from licence free stock photo website's which will be linke
 
 ### Features
 
+This website is a Single-Page Application that has only one page and 1 Main section.
+
+- The page has:
+  - A Header with a title to tell people what this game is and to add some structure to the site.
+  - The Main Section which is the most important part and main focus of the website and that is: Tic Tac Toe Game-
+
 ### Accessibility
+
+I paid good detail to design by making it as easy to navigate as possible and keeping it straight to the point. This was done by:
+
+- Using structured Semantic HTML
+- There was good design and styling for such simple application
+- Keeping all styles consistent throughout all Devices.
 
 ## Technologies Used
 
 ### Languages Used
+
+- HTML
+- CSS
+- JavaScript
 
 ### Frameworks, Libraries & Programs Used
 
@@ -90,11 +127,9 @@ Git - Version control.
 
 Github - To create and save my codebase.
 
-Google Fonts - To use imported fonts for the wite.
+SweetAlert - JavaScript Library to show better Browser Alerts.
 
-Font Awesome - For Icons.
-
-[Favicon.io]() For favicon.
+[Favicon.io](https://favicon.io/favicon-generator/) For favicon.
 
 [Am I Responsive?](http://ami.responsivedesign.is/) Website Display on all Devices
 
@@ -107,7 +142,7 @@ Font Awesome - For Icons.
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
 1. Log in (or sign up) to Github.
-2. Find the repository for this project:
+2. Find the repository for this project: (https://github.com/Retr01234/js-tic-tac-toe) js-tic-tac-toe
 3. Click on the Settings link.
 4. Click on the Pages link in the left hand side navigation bar.
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
@@ -120,7 +155,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 To fork the js-tic-tac-toe repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project.
+2. Go to the repository for this project. (https://github.com/Retr01234/js-tic-tac-toe) js-tic-tac-toe
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -128,7 +163,7 @@ To fork the js-tic-tac-toe repository:
 To clone the Bully-Book-Club repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project.
+2. Go to the repository for this project. (https://github.com/Retr01234/js-tic-tac-toe) js-tic-tac-toe
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -137,7 +172,17 @@ To clone the Bully-Book-Club repository:
 
 ## Testing
 
+Testing was done constantly before and after pushing new changes to the master branch. However, during the production of this project, me and my Mentor were not able to find any REAL faults. Of course, there were some suggestions such as:
+
+- Change the Font Style from 'Rubik Spray Paint' to something more easier to read.
+- Use a JavaScript Library such as "Sweet Alert" to display better and faster Browser Alerts.
+
 ### W3C Validator
+
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+- [Index Page HTML](docs/index.jpg)
+- [style.css CSS](docs/css.jpg)
 
 ### Manual Testing
 
