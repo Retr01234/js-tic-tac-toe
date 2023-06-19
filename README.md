@@ -221,23 +221,36 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 I tested my app fully on all Devices such as:
 
-* Desktop:
-  * Macbook Air M1 2021 14 inch screen.
-  * Ultrawide LG 42 Inch Monitor
-* Mobile Devices:
-  * iPhone SE.
-  * iPhone X
-  * iPhone 12 Pro Max.
-  * Samsung Galaxy S20 Ultra.
-* Tablet Devices:
-  * iPad Air Mini
-  * iPad Pro
+- Desktop:
+  - Macbook Air M1 2021 14 inch screen.
+  - Ultrawide LG 42 Inch Monitor
+- Mobile Devices:
+  - iPhone SE.
+  - iPhone X
+  - iPhone 12 Pro Max.
+  - Samsung Galaxy S20 Ultra.
+- Tablet Devices:
+  - iPad Air Mini
+  - iPad Pro
 
 Each device tested the site using the following browsers:
 
-* Google Chrome
-* Safari
-* Firefox
+- Google Chrome
+- Safari
+- Firefox
+
+Additional testing was taken by me and by my Mentor on a variety of devices and screen sizes.
+
+| Feature             | Expected Outcome                                                                                                                                   | Testing Performed                                        | Result                                                                                  | Pass/Fail |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------- |
+| `Header`            |
+| Main Page Title     | To Display the Title of the Site and stay consistent on all Devices.                                                                               | Viewed on every Device.                                  | Styling and Title was the same everywhere, just different sizes on the smaller devices. | Pass      |
+| `Section`           |
+| Box Clicks          | To start the game with a click on the box (First Letter is always "X")                                                                             | Clicked multiple times in all boxes.                     | Boxes always displayed "X" and then "O" (always in that order)                          | Pass      |
+| User Alert          | As soon as it is the other players turn, a Browser Alert should be displayed.                                                                      | Clicked multiple times in all boxes.                     | Browser always displayed an Alert                                                       | Pass      |
+| Winning Alert       | As soon as one player wins the game, the field will highlight the 3 Boxes that won the tic tac toe game.                                           | Got multiple winning combinations.                       | Field highlights the winning combination in a black background blinking animation.      | Pass      |
+| Reset Functionality | As soon as one player wins the game, the field will highlight the 3 Boxes that won the tic tac toe game. And the game will be automatically reset. | Got multiple winning combinations. Game was reset again. | Game Field was reset to default with no "X" & "O"s.                                     | Pass      |
+| Reset Button        | Game can be reset manually at all times with the click of the Reset Button.                                                                        | Clicked Button                                           | Game was reset to default.                                                              | Pass      |
 
 ---
 
