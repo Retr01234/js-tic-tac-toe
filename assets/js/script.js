@@ -53,7 +53,7 @@ function winner() {
     });
 }
 
-/* Showing the Winner */
+/* Showing the Winner & Disabling any Further Play until Reset */
 function winnerAndReset(ways) {
     ways.forEach(function (x) {
         cellBlocks[x].classList.add("winning");

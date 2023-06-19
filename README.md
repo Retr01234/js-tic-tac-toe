@@ -187,6 +187,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 ### JSHint - JavaScript Validator
 
 - [sctipt.js JavaScript](/docs/js.jpg)
+- [sctipt.js 2nd Half JavaScript](/docs/js-2.jpg)
 
 ### Manual Testing
 
