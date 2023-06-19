@@ -107,7 +107,7 @@ This website is a Single-Page Application that has only one page and 1 Main sect
 
 ### Accessibility
 
-I paid good detail to design by making it as easy to navigate as possible and keeping it straight to the point. This was done by:
+I paid good attention to detail to design by making it as easy to navigate as possible and keeping it straight to the point. This was done by:
 
 - Using structured Semantic HTML
 - There was good design and styling for such simple application
