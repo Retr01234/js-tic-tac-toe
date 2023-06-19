@@ -262,6 +262,9 @@ The idea for this project was fully my own decision but also with the inspiratio
 
 - [SweetAlert] (https://sweetalert.js.org/)
 - [CSS-Animation-Blinking] (https://webdevpuneet.com/css-animation-color-blinking/#gsc.tab=0)
+- [SitePoint] (https://www.sitepoint.com/community/t/onclick-doesnt-work-unless-button-is-clicked-twice/339848)
+- [W3Schools] (https://www.w3schools.com/howto/howto_js_remove_class.asp)
+- [StackOverflow] (https://stackoverflow.com/questions/42224761/pointer-events-none-is-not-working)
 
 ### Content
 
