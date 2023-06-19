@@ -39,13 +39,12 @@ cellBlocks.forEach(function (cellBlock) {
 
         /* Stating whose turn it is to play */
         playerOne = playerOne == "X" ? "O" : "X";
-        swal("Next Player, GO!");
     });
 });
 
 /* Checking for a Winner */
 function winner() {
-    /* Looping through all Wining COmbinations */
+    /* Looping through all Wining Combinations */
     waysOfWinning.forEach(function (ways) {
         let checking = ways.every(x => cellBlocks[x].innerText.trim() == playerOne);
         if (checking) {
@@ -58,6 +57,8 @@ function winner() {
 function winnerAndReset(ways) {
     ways.forEach(function (x) {
         cellBlocks[x].classList.add("winning");
+        mainGame.classList.add("disabled");
+        swal("Congratulations!", `${playerOne} Won!`, "success");
     });
 }
 
@@ -67,6 +68,7 @@ function resetGame() {
         Array.from(cellBlocks).forEach((cellBlock) => {
             cellBlock.textContent = "";
             cellBlock.classList.remove("winning");
+            mainGame.classList.remove("disabled");
         });
     });
 }

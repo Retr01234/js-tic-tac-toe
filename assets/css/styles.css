@@ -77,6 +77,10 @@ section {
     animation: blink 2s infinite;
 }
 
+.disabled {
+    pointer-events: none;
+}
+
 @keyframes blink {
     50% {
         background-color: black;
