@@ -215,6 +215,32 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ---
 
+---
+
+### Full Testing
+
+I tested my app fully on all Devices such as:
+
+* Desktop:
+  * Macbook Air M1 2021 14 inch screen.
+  * Ultrawide LG 42 Inch Monitor
+* Mobile Devices:
+  * iPhone SE.
+  * iPhone X
+  * iPhone 12 Pro Max.
+  * Samsung Galaxy S20 Ultra.
+* Tablet Devices:
+  * iPad Air Mini
+  * iPad Pro
+
+Each device tested the site using the following browsers:
+
+* Google Chrome
+* Safari
+* Firefox
+
+---
+
 ## Credits
 
 The idea for this project was fully my own decision but also with the inspiration of this YouTube Tutorial: (https://www.youtube.com/watch?v=DRaWr0Dcbl0)
